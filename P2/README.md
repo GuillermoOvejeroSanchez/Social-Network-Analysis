@@ -9,7 +9,7 @@
 - [x] 2.2 Visualizaciones de los pasos del modelo Barabasi-Albert
 - [x] 2.3 Visualizaciones de las diferentes regiones
 - [ ] 2.4 Verificar propiedades de los mismos modelos, ver diferencias entre modelos
-## 3. Estudio de la red de la practica 1, Actores-Peliculas []
+## 3. Estudio de la red de la practica 1, Actores-Peliculas
 - [ ] 3.1 A que modelo se aproxima mas? Comparacion de ambas redes
 
 
