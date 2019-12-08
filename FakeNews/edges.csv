@@ -1,0 +1,1917 @@
+Id,Source,Target
+0,ABC,Real
+1,ABC,Real
+2,ABC,Acceptable
+3,ABC,Real
+4,ABC,Real
+5,ABC,Real
+6,ABC,Real
+7,ABC,Real
+8,ABC,Real
+9,ABC,Real
+10,ABC,Real
+11,ABC,Real
+12,ABC,Real
+13,ABC,Real
+14,ABC,Real
+15,ABC,Real
+16,ABC,Real
+17,ABC,Real
+18,ABC,Real
+19,ABC,Real
+20,Al Jazeera,Real
+21,Al Jazeera,Real
+22,Al Jazeera,Real
+23,Al Jazeera,Real
+24,Al Jazeera,Real
+25,Al Jazeera,Real
+26,Al Jazeera,Real
+27,Al Jazeera,Real
+28,Al Jazeera,Real
+29,Al Jazeera,Real
+30,Al Jazeera,Real
+31,Al Jazeera,Real
+32,Al Jazeera,Real
+33,Al Jazeera,Real
+34,Al Jazeera,Real
+35,Alternet,Acceptable
+36,Alternet,Acceptable
+37,Alternet,Fake
+38,Alternet,Real
+39,Alternet,Fake
+40,Alternet,Real
+41,Alternet,Fake
+42,Alternet,Acceptable
+43,Alternet,Real
+44,Alternet,Fake
+45,Alternet,Fake
+46,Alternet,Acceptable
+47,Alternet,Real
+48,Alternet,Fake
+49,Alternet,Real
+50,Alternet,Acceptable
+51,"American Spectator, The",Fake
+52,"American Spectator, The",Fake
+53,"American Spectator, The",Acceptable
+54,"American Spectator, The",Acceptable
+55,"American Spectator, The",Fake
+56,"American Spectator, The",Real
+57,"American Spectator, The",Acceptable
+58,"American Spectator, The",Fake
+59,"American Spectator, The",Fake
+60,AP,Real
+61,AP,Real
+62,AP,Real
+63,AP,Real
+64,AP,Real
+65,AP,Real
+66,AP,Real
+67,AP,Real
+68,AP,Real
+69,AP,Real
+70,AP,Real
+71,AP,Real
+72,AP,Real
+73,AP,Real
+74,AP,Real
+75,AP,Real
+76,AP,Real
+77,AP,Real
+78,AP,Real
+79,AP,Real
+80,AP,Real
+81,AP,Real
+82,AP,Real
+83,AP,Real
+84,AP,Real
+85,AP,Real
+86,AP,Real
+87,AP,Real
+88,AP,Real
+89,AP,Real
+90,AP,Real
+91,AP,Real
+92,AP,Real
+93,AP,Real
+94,AP,Real
+95,AP,Real
+96,AP,Real
+97,AP,Real
+98,AP,Real
+99,AP,Real
+100,AP,Real
+101,AP,Real
+102,AP,Real
+103,AP,Real
+104,AP,Real
+105,AP,Real
+106,Axios,Real
+107,Axios,Real
+108,Axios,Real
+109,Axios,Real
+110,Axios,Real
+111,Axios,Real
+112,Axios,Real
+113,Axios,Real
+114,Axios,Real
+115,Axios,Real
+116,Axios,Real
+117,Axios,Real
+118,Axios,Real
+119,Axios,Real
+120,BBC,Real
+121,BBC,Real
+122,BBC,Real
+123,BBC,Real
+124,BBC,Real
+125,BBC,Real
+126,BBC,Real
+127,BBC,Real
+128,BBC,Real
+129,BBC,Real
+130,BBC,Real
+131,BBC,Real
+132,BBC,Real
+133,BBC,Real
+134,BBC,Real
+135,Bipartisan Report,Fake
+136,Bipartisan Report,Fake
+137,Bipartisan Report,Acceptable
+138,Bipartisan Report,Fake
+139,Bipartisan Report,Acceptable
+140,Bipartisan Report,Fake
+141,Bipartisan Report,Acceptable
+142,Bipartisan Report,Acceptable
+143,Bipartisan Report,Acceptable
+144,Bipartisan Report,Fake
+145,Bipartisan Report,Fake
+146,Bipartisan Report,Fake
+147,Bipartisan Report,Fake
+148,Bipartisan Report,Fake
+149,Bipartisan Report,Fake
+150,Bloomberg,Real
+151,Bloomberg,Real
+152,Bloomberg,Real
+153,Bloomberg,Real
+154,Bloomberg,Real
+155,Bloomberg,Real
+156,Bloomberg,Real
+157,Bloomberg,Real
+158,Bloomberg,Real
+159,Bloomberg,Real
+160,Bloomberg,Real
+161,Bloomberg,Real
+162,Bloomberg,Real
+163,Bloomberg,Real
+164,Bloomberg,Real
+165,Bloomberg,Real
+166,Bloomberg,Real
+167,Bloomberg,Real
+168,Bloomberg,Real
+169,Bloomberg,Real
+170,Bloomberg,Real
+171,Bloomberg,Acceptable
+172,Bloomberg,Real
+173,Bloomberg,Real
+174,Bloomberg,Real
+175,Bloomberg,Real
+176,Bloomberg,Real
+177,Bloomberg,Real
+178,Bloomberg,Real
+179,Breitbart,Fake
+180,Breitbart,Fake
+181,Breitbart,Fake
+182,Breitbart,Real
+183,Breitbart,Real
+184,Breitbart,Real
+185,Breitbart,Fake
+186,Breitbart,Acceptable
+187,Breitbart,Real
+188,Breitbart,Real
+189,Breitbart,Acceptable
+190,Breitbart,Real
+191,Breitbart,Real
+192,Breitbart,Real
+193,Business Insider,Real
+194,Business Insider,Real
+195,Business Insider,Real
+196,Business Insider,Real
+197,Business Insider,Real
+198,Business Insider,Real
+199,Business Insider,Real
+200,Business Insider,Real
+201,Business Insider,Real
+202,Business Insider,Real
+203,Business Insider,Acceptable
+204,Business Insider,Real
+205,Business Insider,Real
+206,Business Insider,Real
+207,Business Insider,Real
+208,BuzzFeed,Real
+209,BuzzFeed,Real
+210,BuzzFeed,Real
+211,BuzzFeed,Real
+212,BuzzFeed,Real
+213,BuzzFeed,Acceptable
+214,BuzzFeed,Acceptable
+215,BuzzFeed,Real
+216,BuzzFeed,Real
+217,BuzzFeed,Real
+218,BuzzFeed,Real
+219,BuzzFeed,Real
+220,BuzzFeed,Real
+221,BuzzFeed,Real
+222,BuzzFeed,Real
+223,CBS,Real
+224,CBS,Real
+225,CBS,Real
+226,CBS,Real
+227,CBS,Real
+228,CBS,Real
+229,CBS,Real
+230,CBS,Real
+231,CBS,Real
+232,CBS,Real
+233,CBS,Real
+234,CBS,Real
+235,CBS,Real
+236,Christian Science Monitor,Real
+237,Christian Science Monitor,Real
+238,Christian Science Monitor,Real
+239,Christian Science Monitor,Real
+240,Christian Science Monitor,Real
+241,Christian Science Monitor,Real
+242,Christian Science Monitor,Real
+243,Christian Science Monitor,Real
+244,Christian Science Monitor,Real
+245,Christian Science Monitor,Real
+246,Christian Science Monitor,Real
+247,Christian Science Monitor,Real
+248,Christian Science Monitor,Real
+249,Christian Science Monitor,Real
+250,Christian Science Monitor,Real
+251,Christian Science Monitor,Real
+252,Christian Science Monitor,Real
+253,CNN,Fake
+254,CNN,Real
+255,CNN,Acceptable
+256,CNN,Real
+257,CNN,Acceptable
+258,CNN,Real
+259,CNN,Real
+260,CNN,Real
+261,CNN,Real
+262,CNN,Real
+263,CNN,Real
+264,CNN,Real
+265,CNN,Real
+266,CNN,Real
+267,CNN,Real
+268,CNN,Real
+269,CNN,Real
+270,CNN,Real
+271,CNN,Real
+272,CNN,Real
+273,CNN,Real
+274,CNN,Real
+275,CNN,Acceptable
+276,CNN,Real
+277,CNN,Real
+278,CNN,Real
+279,CNN,Real
+280,CNN,Real
+281,CNN,Real
+282,CNN,Real
+283,CNN,Real
+284,CNN,Real
+285,CNN,Real
+286,CNN,Real
+287,CNN,Real
+288,CNN,Real
+289,CNN,Real
+290,CNN,Real
+291,CNN,Real
+292,CNN,Real
+293,CNN,Real
+294,CNN,Real
+295,CNN,Real
+296,CNN,Acceptable
+297,CNN,Real
+298,CNN,Acceptable
+299,CNN,Real
+300,CNN,Real
+301,CNN,Real
+302,CNN,Acceptable
+303,CNN,Real
+304,CNN,Acceptable
+305,CNN,Real
+306,CNN,Real
+307,CNSNews,Acceptable
+308,Conservative Review,Fake
+309,Conservative Review,Acceptable
+310,Conservative Review,Acceptable
+311,Conservative Review,Acceptable
+312,Conservative Review,Real
+313,Conservative Review,Acceptable
+314,Conservative Review,Fake
+315,Conservative Review,Fake
+316,Conservative Review,Fake
+317,Conservative Review,Fake
+318,Conservative Tribune,Real
+319,Conservative Tribune,Acceptable
+320,Conservative Tribune,Real
+321,Conservative Tribune,Real
+322,Conservative Tribune,Fake
+323,Conservative Tribune,Real
+324,Conservative Tribune,Real
+325,Conservative Tribune,Acceptable
+326,Conservative Tribune,Real
+327,Conservative Tribune,Real
+328,Conservative Tribune,Real
+329,Conservative Tribune,Acceptable
+330,Conservative Tribune,Fake
+331,Counterpunch,Fake
+332,Counterpunch,Acceptable
+333,Counterpunch,Fake
+334,Counterpunch,Real
+335,Counterpunch,Acceptable
+336,Counterpunch,Acceptable
+337,Counterpunch,Real
+338,Counterpunch,Real
+339,Counterpunch,Real
+340,Crooks and Liars,Acceptable
+341,Crooks and Liars,Acceptable
+342,Crooks and Liars,Fake
+343,Crooks and Liars,Acceptable
+344,Crooks and Liars,Fake
+345,Crooks and Liars,Acceptable
+346,Crooks and Liars,Acceptable
+347,Crooks and Liars,Fake
+348,Crooks and Liars,Acceptable
+349,Crooks and Liars,Acceptable
+350,Daily Beast,Real
+351,Daily Beast,Real
+352,Daily Beast,Acceptable
+353,Daily Beast,Real
+354,Daily Beast,Real
+355,Daily Beast,Real
+356,Daily Beast,Fake
+357,Daily Beast,Real
+358,Daily Beast,Real
+359,Daily Beast,Real
+360,Daily Beast,Real
+361,Daily Beast,Real
+362,Daily Beast,Real
+363,Daily Caller,Acceptable
+364,Daily Caller,Fake
+365,Daily Caller,Real
+366,Daily Caller,Acceptable
+367,Daily Caller,Fake
+368,Daily Caller,Real
+369,Daily Caller,Fake
+370,Daily Caller,Real
+371,Daily Caller,Fake
+372,Daily Caller,Real
+373,Daily Caller,Real
+374,Daily Caller,Fake
+375,Daily Caller,Acceptable
+376,Daily Caller,Real
+377,Daily Caller,Fake
+378,Daily Kos,Fake
+379,Daily Kos,Fake
+380,Daily Kos,Acceptable
+381,Daily Kos,Fake
+382,Daily Kos,Real
+383,Daily Kos,Fake
+384,Daily Kos,Acceptable
+385,Daily Kos,Acceptable
+386,Daily Kos,Acceptable
+387,Daily Kos,Acceptable
+388,Daily Kos,Real
+389,Daily Kos,Acceptable
+390,Daily Mail,Real
+391,Daily Mail,Acceptable
+392,Daily Mail,Real
+393,Daily Mail,Fake
+394,Daily Mail,Real
+395,Daily Mail,Real
+396,Daily Mail,Real
+397,Daily Mail,Acceptable
+398,Daily Mail,Real
+399,Daily Mail,Real
+400,Daily Mail,Fake
+401,Daily Mail,Fake
+402,Daily Mail,Real
+403,Daily Mail,Acceptable
+404,Daily Signal,Fake
+405,Daily Signal,Fake
+406,Daily Signal,Real
+407,Daily Signal,Real
+408,Daily Signal,Real
+409,Daily Signal,Fake
+410,Daily Signal,Real
+411,Daily Signal,Acceptable
+412,Daily Signal,Real
+413,Daily Signal,Fake
+414,Daily Signal,Real
+415,Daily Signal,Real
+416,Daily Signal,Real
+417,Daily Signal,Real
+418,Daily Signal,Acceptable
+419,Daily Wire,Real
+420,Daily Wire,Real
+421,Daily Wire,Acceptable
+422,Daily Wire,Real
+423,Daily Wire,Fake
+424,Daily Wire,Acceptable
+425,Daily Wire,Real
+426,Daily Wire,Acceptable
+427,Daily Wire,Fake
+428,Daily Wire,Fake
+429,Daily Wire,Fake
+430,Daily Wire,Acceptable
+431,Daily Wire,Fake
+432,Daily Wire,Real
+433,Daily Wire,Acceptable
+434,Democracy Now,Real
+435,Democracy Now,Fake
+436,Democracy Now,Real
+437,Democracy Now,Real
+438,Democracy Now,Real
+439,Democracy Now,Real
+440,Democracy Now,Acceptable
+441,Democracy Now,Acceptable
+442,Democracy Now,Real
+443,Democracy Now,Real
+444,Democracy Now,Real
+445,Democracy Now,Acceptable
+446,Democracy Now,Real
+447,Democracy Now,Real
+448,Democracy Now,Real
+449,EPI,Real
+450,Financial Times,Real
+451,Financial Times,Real
+452,Financial Times,Real
+453,Financial Times,Real
+454,Financial Times,Real
+455,Financial Times,Real
+456,Financial Times,Real
+457,Financial Times,Real
+458,Financial Times,Real
+459,Financial Times,Real
+460,Financial Times,Real
+461,Financial Times,Real
+462,Financial Times,Real
+463,Fiscal Times,Real
+464,Fiscal Times,Real
+465,Fiscal Times,Real
+466,Fiscal Times,Real
+467,Fiscal Times,Real
+468,Fiscal Times,Real
+469,Fiscal Times,Real
+470,Fiscal Times,Real
+471,Fiscal Times,Real
+472,Fiscal Times,Real
+473,Fiscal Times,Real
+474,Fiscal Times,Real
+475,Fiscal Times,Real
+476,Fiscal Times,Real
+477,Fiscal Times,Real
+478,Forbes,Acceptable
+479,Forbes,Real
+480,Forbes,Real
+481,Forbes,Real
+482,Forbes,Real
+483,Forbes,Real
+484,Forbes,Acceptable
+485,Forbes,Acceptable
+486,Forbes,Real
+487,Forbes,Real
+488,Forbes,Real
+489,Forbes,Real
+490,Forbes,Real
+491,Forbes,Real
+492,Foreign Policy,Real
+493,Foreign Policy,Real
+494,Foreign Policy,Real
+495,Foreign Policy,Real
+496,Foreign Policy,Real
+497,Foreign Policy,Real
+498,Foreign Policy,Real
+499,Foreign Policy,Real
+500,Foreign Policy,Real
+501,Foreign Policy,Real
+502,Foreign Policy,Acceptable
+503,Foreign Policy,Real
+504,Foreign Policy,Real
+505,Foreign Policy,Real
+506,Foreign Policy,Real
+507,Fortune,Real
+508,Fortune,Real
+509,Fortune,Real
+510,Fortune,Real
+511,Fortune,Real
+512,Fortune,Real
+513,Fortune,Real
+514,Fortune,Real
+515,Fortune,Real
+516,Fortune,Real
+517,Fortune,Real
+518,Fortune,Real
+519,Fortune,Real
+520,Fortune,Real
+521,Forward,Acceptable
+522,Forward,Real
+523,Forward,Real
+524,Forward,Real
+525,Fox News,Fake
+526,Fox News,Fake
+527,Fox News,Real
+528,Fox News,Fake
+529,Fox News,Acceptable
+530,Fox News,Real
+531,Fox News,Fake
+532,Fox News,Real
+533,Fox News,Acceptable
+534,Fox News,Real
+535,Fox News,Real
+536,Fox News,Real
+537,Fox News,Acceptable
+538,Fox News,Real
+539,Fox News,Fake
+540,Fox News,Fake
+541,Fox News,Acceptable
+542,Fox News,Real
+543,Fox News,Acceptable
+544,Fox News,Real
+545,Fox News,Real
+546,Fox News,Real
+547,Fox News,Real
+548,Fox News,Real
+549,Fox News,Fake
+550,Fox News,Acceptable
+551,Fox News,Real
+552,Fox News,Real
+553,Fox News,Acceptable
+554,Fox News,Fake
+555,Fox News,Acceptable
+556,Fox News,Real
+557,Fox News,Real
+558,Fox News,Real
+559,Fox News,Real
+560,Fox News,Real
+561,Fox News,Fake
+562,Fox News,Fake
+563,Fox News,Real
+564,Fox News,Real
+565,Fox News,Acceptable
+566,Fox News,Real
+567,Fox News,Fake
+568,Fox News,Real
+569,Fox News,Acceptable
+570,Fox News,Real
+571,Fox News,Fake
+572,Fox News,Fake
+573,Fox News,Acceptable
+574,Fox News,Real
+575,Fox News,Real
+576,Fox News,Real
+577,Fox News,Acceptable
+578,Fox News,Real
+579,Fox News,Acceptable
+580,Fox News,Fake
+581,Fox News,Fake
+582,Fox News,Acceptable
+583,Fox News,Acceptable
+584,Fox News,Fake
+585,Fox News,Fake
+586,Fox News,Fake
+587,Fox News,Fake
+588,Fox News,Real
+589,Fox News,Fake
+590,Fox News,Fake
+591,Fox News,Acceptable
+592,Fox News,Fake
+593,Fox News,Fake
+594,Fox News,Acceptable
+595,Fox News,Real
+596,FreeSpeech TV,Fake
+597,FreeSpeech TV,Real
+598,FreeSpeech TV,Acceptable
+599,FreeSpeech TV,Fake
+600,FreeSpeech TV,Real
+601,FreeSpeech TV,Acceptable
+602,FreeSpeech TV,Fake
+603,FreeSpeech TV,Real
+604,FreeSpeech TV,Real
+605,FreeSpeech TV,Real
+606,Guacamoley,Acceptable
+607,Guacamoley,Fake
+608,Guacamoley,Fake
+609,Guacamoley,Fake
+610,Guacamoley,Fake
+611,Guacamoley,Acceptable
+612,Guacamoley,Real
+613,Guacamoley,Fake
+614,Guacamoley,Acceptable
+615,Guacamoley,Fake
+616,Guacamoley,Acceptable
+617,Guacamoley,Acceptable
+618,Guacamoley,Fake
+619,Guacamoley,Fake
+620,Guacamoley,Acceptable
+621,Huffington Post,Acceptable
+622,Huffington Post,Real
+623,Huffington Post,Real
+624,Huffington Post,Acceptable
+625,Huffington Post,Real
+626,Huffington Post,Real
+627,Huffington Post,Real
+628,Huffington Post,Real
+629,Huffington Post,Acceptable
+630,Huffington Post,Real
+631,Huffington Post,Real
+632,Huffington Post,Acceptable
+633,Huffington Post,Real
+634,Huffington Post,Real
+635,Huffington Post,Acceptable
+636,IJR,Real
+637,IJR,Real
+638,IJR,Real
+639,IJR,Real
+640,IJR,Real
+641,IJR,Real
+642,IJR,Real
+643,IJR,Real
+644,IJR,Real
+645,IJR,Real
+646,InfoWars,Acceptable
+647,InfoWars,Real
+648,InfoWars,Fake
+649,InfoWars,Real
+650,InfoWars,Fake
+651,InfoWars,Fake
+652,InfoWars,Fake
+653,InfoWars,Fake
+654,InfoWars,Real
+655,InfoWars,Fake
+656,InfoWars,Real
+657,InfoWars,Real
+658,InfoWars,Fake
+659,InfoWars,Fake
+660,InfoWars,Fake
+661,Intercept,Real
+662,Intercept,Real
+663,Intercept,Real
+664,Intercept,Real
+665,Intercept,Real
+666,Intercept,Real
+667,Intercept,Real
+668,Intercept,Acceptable
+669,Intercept,Real
+670,Intercept,Acceptable
+671,Intercept,Real
+672,Intercept,Real
+673,Intercept,Real
+674,Intercept,Real
+675,Intercept,Acceptable
+676,Jacobin,Real
+677,Jacobin,Real
+678,Jacobin,Real
+679,Jacobin,Real
+680,Jacobin,Real
+681,Jacobin,Acceptable
+682,Jacobin,Acceptable
+683,Jacobin,Acceptable
+684,Jacobin,Acceptable
+685,Jacobin,Acceptable
+686,Jacobin,Fake
+687,Jacobin,Fake
+688,Jacobin,Real
+689,Jacobin,Real
+690,Jacobin,Real
+691,LA Times,Real
+692,LA Times,Real
+693,LA Times,Real
+694,LA Times,Real
+695,LA Times,Real
+696,LA Times,Real
+697,LA Times,Real
+698,LA Times,Real
+699,LA Times,Real
+700,LA Times,Real
+701,LA Times,Real
+702,LA Times,Real
+703,LA Times,Real
+704,LA Times,Real
+705,LA Times,Real
+706,LA Times,Real
+707,LA Times,Real
+708,LA Times,Real
+709,LA Times,Real
+710,LA Times,Real
+711,LA Times,Real
+712,LA Times,Real
+713,LA Times,Real
+714,LA Times,Real
+715,LA Times,Real
+716,LA Times,Real
+717,LA Times,Real
+718,LA Times,Real
+719,LA Times,Real
+720,Life News,Real
+721,Life News,Fake
+722,Life News,Acceptable
+723,Life News,Acceptable
+724,Life News,Real
+725,Life News,Acceptable
+726,Life News,Acceptable
+727,Life News,Acceptable
+728,Life News,Fake
+729,Life News,Fake
+730,Marketwatch,Acceptable
+731,Marketwatch,Real
+732,Marketwatch,Real
+733,Marketwatch,Real
+734,Marketwatch,Real
+735,Marketwatch,Real
+736,Marketwatch,Acceptable
+737,Marketwatch,Real
+738,Marketwatch,Real
+739,Marketwatch,Real
+740,Marketwatch,Real
+741,Marketwatch,Real
+742,Marketwatch,Real
+743,Marketwatch,Real
+744,Mother Jones,Real
+745,Mother Jones,Acceptable
+746,Mother Jones,Real
+747,Mother Jones,Acceptable
+748,Mother Jones,Fake
+749,Mother Jones,Real
+750,Mother Jones,Real
+751,Mother Jones,Real
+752,Mother Jones,Real
+753,Mother Jones,Real
+754,Mother Jones,Real
+755,Mother Jones,Real
+756,Mother Jones,Real
+757,Mother Jones,Real
+758,Mother Jones,Real
+759,MSNBC,Real
+760,MSNBC,Real
+761,MSNBC,Real
+762,MSNBC,Real
+763,MSNBC,Real
+764,MSNBC,Real
+765,MSNBC,Real
+766,MSNBC,Real
+767,MSNBC,Acceptable
+768,MSNBC,Real
+769,MSNBC,Acceptable
+770,MSNBC,Real
+771,MSNBC,Acceptable
+772,MSNBC,Fake
+773,MSNBC,Real
+774,MSNBC,Acceptable
+775,MSNBC,Real
+776,MSNBC,Real
+777,MSNBC,Real
+778,MSNBC,Real
+779,MSNBC,Real
+780,MSNBC,Real
+781,MSNBC,Real
+782,MSNBC,Acceptable
+783,MSNBC,Fake
+784,MSNBC,Real
+785,MSNBC,Real
+786,MSNBC,Real
+787,MSNBC,Real
+788,MSNBC,Real
+789,MSNBC,Real
+790,MSNBC,Real
+791,MSNBC,Real
+792,MSNBC,Real
+793,MSNBC,Real
+794,MSNBC,Real
+795,MSNBC,Real
+796,MSNBC,Real
+797,MSNBC,Real
+798,MSNBC,Real
+799,MSNBC,Real
+800,MSNBC,Real
+801,MSNBC,Real
+802,MSNBC,Real
+803,MSNBC,Real
+804,MSNBC,Real
+805,MSNBC,Real
+806,MSNBC,Real
+807,MSNBC,Real
+808,MSNBC,Real
+809,MSNBC,Real
+810,MSNBC,Real
+811,MSNBC,Real
+812,MSNBC,Real
+813,MSNBC,Real
+814,MSNBC,Real
+815,MSNBC,Real
+816,MSNBC,Real
+817,MSNBC,Real
+818,MSNBC,Real
+819,MSNBC,Real
+820,MSNBC,Real
+821,MSNBC,Real
+822,MSNBC,Real
+823,MSNBC,Acceptable
+824,MSNBC,Real
+825,MSNBC,Fake
+826,MSNBC,Real
+827,MSNBC,Acceptable
+828,MSNBC,Real
+829,MSNBC,Acceptable
+830,MSNBC,Acceptable
+831,National Enquirer,Fake
+832,National Enquirer,Fake
+833,National Enquirer,Real
+834,National Enquirer,Fake
+835,National Enquirer,Fake
+836,National Enquirer,Fake
+837,National Enquirer,Fake
+838,National Enquirer,Acceptable
+839,National Enquirer,Fake
+840,National Enquirer,Fake
+841,National Enquirer,Fake
+842,National Enquirer,Fake
+843,National Enquirer,Real
+844,National Enquirer,Fake
+845,National Enquirer,Acceptable
+846,National Public Radio,Real
+847,National Public Radio,Real
+848,National Public Radio,Real
+849,National Public Radio,Real
+850,National Public Radio,Real
+851,National Public Radio,Real
+852,National Public Radio,Real
+853,National Public Radio,Real
+854,National Public Radio,Real
+855,National Public Radio,Real
+856,National Public Radio,Real
+857,National Public Radio,Real
+858,National Public Radio,Real
+859,National Public Radio,Real
+860,National Public Radio,Real
+861,National Review,Fake
+862,National Review,Real
+863,National Review,Real
+864,National Review,Real
+865,National Review,Acceptable
+866,National Review,Real
+867,National Review,Fake
+868,National Review,Acceptable
+869,National Review,Acceptable
+870,National Review,Acceptable
+871,National Review,Acceptable
+872,National Review,Real
+873,National Review,Real
+874,National Review,Acceptable
+875,New Republic,Real
+876,New Republic,Acceptable
+877,New Republic,Acceptable
+878,New Republic,Real
+879,New Republic,Real
+880,New Republic,Real
+881,New Republic,Real
+882,New Republic,Real
+883,New Republic,Acceptable
+884,New Republic,Real
+885,New Republic,Real
+886,New Republic,Real
+887,New Republic,Real
+888,New Republic,Real
+889,New Republic,Acceptable
+890,New York Post,Real
+891,New York Post,Real
+892,New York Post,Real
+893,New York Post,Real
+894,New York Post,Real
+895,New York Post,Real
+896,New York Post,Fake
+897,New York Post,Real
+898,New York Post,Real
+899,New York Post,Real
+900,New York Post,Real
+901,New York Post,Acceptable
+902,New York Post,Real
+903,New York Post,Real
+904,New York Times,Real
+905,New York Times,Real
+906,New York Times,Real
+907,New York Times,Real
+908,New York Times,Real
+909,New York Times,Real
+910,New York Times,Real
+911,New York Times,Real
+912,New York Times,Real
+913,New York Times,Real
+914,New York Times,Real
+915,New York Times,Real
+916,New York Times,Real
+917,New York Times,Real
+918,New York Times,Real
+919,New York Times,Real
+920,New York Times,Real
+921,New York Times,Real
+922,New York Times,Real
+923,New York Times,Real
+924,New York Times,Real
+925,New York Times,Real
+926,New York Times,Real
+927,New York Times,Real
+928,New York Times,Real
+929,New York Times,Real
+930,New York Times,Real
+931,New York Times,Real
+932,New York Times,Acceptable
+933,New York Times,Acceptable
+934,New York Times,Acceptable
+935,New York Times,Real
+936,New York Times,Real
+937,New York Times,Real
+938,New York Times,Real
+939,New York Times,Real
+940,New York Times,Real
+941,New York Times,Real
+942,New York Times,Real
+943,New York Times,Real
+944,New York Times,Real
+945,New York Times,Real
+946,New York Times,Real
+947,New York Times,Real
+948,New York Times,Real
+949,New York Times,Real
+950,New York Times,Real
+951,New York Times,Real
+952,New York Times,Real
+953,New York Times,Real
+954,New York Times,Real
+955,New York Times,Real
+956,New York Times,Real
+957,New York Times,Real
+958,New York Times,Real
+959,New York Times,Real
+960,New York Times,Real
+961,New York Times,Real
+962,New York Times,Real
+963,New York Times,Real
+964,New York Times,Real
+965,New York Times,Real
+966,New York Times,Real
+967,New York Times,Real
+968,New York Times,Real
+969,New York Times,Real
+970,New York Times,Real
+971,New York Times,Real
+972,New York Times,Real
+973,New York Times,Real
+974,New York Times,Real
+975,New York Times,Real
+976,New York Times,Real
+977,New York Times,Real
+978,New York Times,Real
+979,New York Times,Real
+980,New York Times,Real
+981,New York Times,Real
+982,New York Times,Real
+983,New York Times,Real
+984,New York Times,Real
+985,New York Times,Real
+986,New York Times,Real
+987,New York Times,Real
+988,New York Times,Real
+989,New York Times,Real
+990,New York Times,Real
+991,New York Times,Real
+992,New York Times,Real
+993,New York Times,Real
+994,New York Times,Real
+995,New York Times,Real
+996,New York Times,Real
+997,New York Times,Real
+998,New York Times,Real
+999,New York Times,Real
+1000,New York Times,Real
+1001,New York Times,Real
+1002,New York Times,Real
+1003,New York Times,Real
+1004,New York Times,Real
+1005,New York Times,Real
+1006,New York Times,Real
+1007,New York Times,Real
+1008,New York Times,Real
+1009,News and Guts,Real
+1010,News and Guts,Acceptable
+1011,News and Guts,Real
+1012,News and Guts,Real
+1013,News and Guts,Real
+1014,News and Guts,Real
+1015,News and Guts,Fake
+1016,News and Guts,Real
+1017,News and Guts,Real
+1018,News and Guts,Acceptable
+1019,News and Guts,Real
+1020,News and Guts,Acceptable
+1021,News and Guts,Real
+1022,News and Guts,Real
+1023,News and Guts,Fake
+1024,NewsMax,Real
+1025,NewsMax,Real
+1026,NewsMax,Real
+1027,NewsMax,Acceptable
+1028,NewsMax,Fake
+1029,NewsMax,Real
+1030,NewsMax,Real
+1031,NewsMax,Real
+1032,NewsMax,Fake
+1033,NewsMax,Acceptable
+1034,NewsMax,Real
+1035,NewsMax,Acceptable
+1036,NewsMax,Real
+1037,NewsMax,Acceptable
+1038,NewsPunch,Fake
+1039,NewsPunch,Fake
+1040,NewsPunch,Fake
+1041,NewsPunch,Acceptable
+1042,NewsPunch,Fake
+1043,NewsPunch,Fake
+1044,NewsPunch,Fake
+1045,NewsPunch,Fake
+1046,NewsPunch,Fake
+1047,NewsPunch,Fake
+1048,NewsPunch,Fake
+1049,NewsPunch,Fake
+1050,NewsPunch,Real
+1051,NewsPunch,Acceptable
+1052,NewsPunch,Fake
+1053,Newsy,Real
+1054,Newsy,Real
+1055,Newsy,Real
+1056,Newsy,Real
+1057,Newsy,Real
+1058,Newsy,Real
+1059,Newsy,Real
+1060,Newsy,Real
+1061,Newsy,Real
+1062,Newsy,Real
+1063,Occupy Democrats,Fake
+1064,Occupy Democrats,Real
+1065,Occupy Democrats,Acceptable
+1066,Occupy Democrats,Fake
+1067,Occupy Democrats,Fake
+1068,Occupy Democrats,Fake
+1069,Occupy Democrats,Fake
+1070,One America News Network,Fake
+1071,One America News Network,Real
+1072,One America News Network,Real
+1073,One America News Network,Acceptable
+1074,One America News Network,Real
+1075,One America News Network,Acceptable
+1076,One America News Network,Real
+1077,One America News Network,Real
+1078,One America News Network,Real
+1079,One America News Network,Real
+1080,OZY,Real
+1081,OZY,Real
+1082,OZY,Real
+1083,OZY,Real
+1084,OZY,Real
+1085,OZY,Real
+1086,OZY,Real
+1087,OZY,Acceptable
+1088,OZY,Acceptable
+1089,OZY,Acceptable
+1090,OZY,Real
+1091,OZY,Real
+1092,OZY,Real
+1093,OZY,Real
+1094,OZY,Real
+1095,OZY,Real
+1096,Palmer Report,Fake
+1097,Palmer Report,Fake
+1098,Palmer Report,Fake
+1099,Palmer Report,Fake
+1100,Palmer Report,Fake
+1101,Palmer Report,Fake
+1102,Palmer Report,Fake
+1103,Palmer Report,Fake
+1104,Palmer Report,Fake
+1105,Palmer Report,Fake
+1106,Palmer Report,Fake
+1107,Palmer Report,Fake
+1108,Palmer Report,Fake
+1109,Palmer Report,Fake
+1110,Palmer Report,Fake
+1111,Palmer Report,Fake
+1112,Patribotics,Fake
+1113,Patribotics,Fake
+1114,Patribotics,Acceptable
+1115,Patribotics,Fake
+1116,Patribotics,Acceptable
+1117,Patribotics,Fake
+1118,Patribotics,Fake
+1119,Patribotics,Fake
+1120,Patribotics,Acceptable
+1121,Patribotics,Acceptable
+1122,Patribotics,Fake
+1123,PBS,Real
+1124,PBS,Real
+1125,PBS,Real
+1126,PBS,Real
+1127,PBS,Real
+1128,PBS,Real
+1129,PBS,Real
+1130,PBS,Real
+1131,PBS,Real
+1132,PBS,Real
+1133,PBS,Real
+1134,PBS,Real
+1135,PBS,Real
+1136,PBS,Real
+1137,PBS,Real
+1138,PBS,Real
+1139,PBS,Real
+1140,PBS,Real
+1141,PJ Media,Fake
+1142,PJ Media,Acceptable
+1143,PJ Media,Real
+1144,PJ Media,Real
+1145,PJ Media,Fake
+1146,PJ Media,Acceptable
+1147,PJ Media,Real
+1148,PJ Media,Real
+1149,PJ Media,Real
+1150,PJ Media,Fake
+1151,PJ Media,Acceptable
+1152,PJ Media,Acceptable
+1153,PJ Media,Acceptable
+1154,PJ Media,Real
+1155,PJ Media,Acceptable
+1156,Politico,Real
+1157,Politico,Real
+1158,Politico,Real
+1159,Politico,Real
+1160,Politico,Real
+1161,Politico,Real
+1162,Politico,Real
+1163,Politico,Real
+1164,Politico,Real
+1165,Politico,Real
+1166,Politico,Real
+1167,Politico,Real
+1168,Politico,Real
+1169,Politico,Real
+1170,Politico,Real
+1171,"Progressive, The",Real
+1172,"Progressive, The",Real
+1173,"Progressive, The",Real
+1174,"Progressive, The",Real
+1175,"Progressive, The",Real
+1176,"Progressive, The",Real
+1177,"Progressive, The",Real
+1178,"Progressive, The",Real
+1179,"Progressive, The",Real
+1180,"Progressive, The",Fake
+1181,ProPublica,Real
+1182,ProPublica,Real
+1183,ProPublica,Real
+1184,ProPublica,Real
+1185,ProPublica,Real
+1186,ProPublica,Real
+1187,ProPublica,Real
+1188,ProPublica,Real
+1189,ProPublica,Real
+1190,ProPublica,Real
+1191,ProPublica,Real
+1192,ProPublica,Real
+1193,ProPublica,Real
+1194,ProPublica,Real
+1195,ProPublica,Real
+1196,Quartz,Real
+1197,Quartz,Real
+1198,Quartz,Real
+1199,Quartz,Real
+1200,Quartz,Real
+1201,Quartz,Real
+1202,Quartz,Real
+1203,Quartz,Real
+1204,Quartz,Real
+1205,Quartz,Real
+1206,Quartz,Real
+1207,Quartz,Real
+1208,Quartz,Real
+1209,Quartz,Real
+1210,Quartz,Real
+1211,Reason,Real
+1212,Reason,Real
+1213,Reason,Real
+1214,Reason,Real
+1215,Reason,Real
+1216,Reason,Real
+1217,Reason,Real
+1218,Reason,Real
+1219,Reason,Acceptable
+1220,Reason,Real
+1221,Reason,Real
+1222,Reason,Real
+1223,Reason,Real
+1224,Reason,Real
+1225,Reason,Acceptable
+1226,RedState,Fake
+1227,RedState,Fake
+1228,RedState,Fake
+1229,RedState,Fake
+1230,RedState,Fake
+1231,RedState,Real
+1232,RedState,Fake
+1233,RedState,Fake
+1234,RedState,Real
+1235,RedState,Fake
+1236,RedState,Acceptable
+1237,RedState,Fake
+1238,RedState,Acceptable
+1239,RedState,Fake
+1240,Reuters,Real
+1241,Reuters,Real
+1242,Reuters,Real
+1243,Reuters,Real
+1244,Reuters,Real
+1245,Reuters,Real
+1246,Reuters,Real
+1247,Reuters,Real
+1248,Reuters,Real
+1249,Reuters,Real
+1250,Reuters,Real
+1251,Reuters,Real
+1252,Reuters,Real
+1253,Reuters,Real
+1254,Reuters,Real
+1255,Reuters,Real
+1256,Reuters,Real
+1257,Reuters,Real
+1258,Reuters,Real
+1259,Reuters,Real
+1260,Reuters,Real
+1261,Reuters,Real
+1262,Reuters,Real
+1263,Reuters,Real
+1264,Reuters,Real
+1265,Reuters,Real
+1266,Reuters,Real
+1267,Reuters,Real
+1268,Reuters,Real
+1269,Reuters,Real
+1270,Reuters,Real
+1271,Reuters,Real
+1272,Reuters,Real
+1273,Reuters,Real
+1274,Reuters,Real
+1275,Reuters,Real
+1276,Reuters,Real
+1277,Reuters,Real
+1278,Reuters,Real
+1279,Reuters,Real
+1280,Reuters,Real
+1281,Reuters,Real
+1282,Reuters,Real
+1283,Reuters,Real
+1284,Reuters,Real
+1285,Second Nexus,Fake
+1286,Second Nexus,Fake
+1287,Second Nexus,Acceptable
+1288,Second Nexus,Fake
+1289,Second Nexus,Fake
+1290,Second Nexus,Real
+1291,Second Nexus,Acceptable
+1292,Second Nexus,Fake
+1293,Second Nexus,Acceptable
+1294,Second Nexus,Real
+1295,Second Nexus,Fake
+1296,Second Nexus,Real
+1297,Second Nexus,Acceptable
+1298,Second Nexus,Fake
+1299,Second Nexus,Real
+1300,ShareBlue,Fake
+1301,ShareBlue,Fake
+1302,ShareBlue,Acceptable
+1303,ShareBlue,Acceptable
+1304,ShareBlue,Acceptable
+1305,ShareBlue,Fake
+1306,ShareBlue,Acceptable
+1307,ShareBlue,Fake
+1308,ShareBlue,Real
+1309,ShareBlue,Fake
+1310,ShareBlue,Fake
+1311,ShareBlue,Acceptable
+1312,ShareBlue,Real
+1313,ShareBlue,Acceptable
+1314,ShareBlue,Real
+1315,Slate,Real
+1316,Slate,Fake
+1317,Slate,Real
+1318,Slate,Real
+1319,Slate,Real
+1320,Slate,Real
+1321,Slate,Real
+1322,Slate,Acceptable
+1323,Slate,Real
+1324,Slate,Real
+1325,Slate,Real
+1326,Slate,Acceptable
+1327,Slate,Acceptable
+1328,Slate,Real
+1329,Spoutable,Fake
+1330,Talking Points Memo,Real
+1331,Talking Points Memo,Real
+1332,Talking Points Memo,Real
+1333,Talking Points Memo,Real
+1334,Talking Points Memo,Real
+1335,Talking Points Memo,Real
+1336,Talking Points Memo,Real
+1337,Talking Points Memo,Real
+1338,Talking Points Memo,Real
+1339,Talking Points Memo,Real
+1340,Talking Points Memo,Real
+1341,Talking Points Memo,Real
+1342,Talking Points Memo,Real
+1343,Talking Points Memo,Real
+1344,Talking Points Memo,Real
+1345,The Advocate,Fake
+1346,The Advocate,Real
+1347,The Advocate,Fake
+1348,The Advocate,Real
+1349,The Advocate,Real
+1350,The Advocate,Real
+1351,The Advocate,Real
+1352,The Advocate,Acceptable
+1353,The Advocate,Acceptable
+1354,The Advocate,Real
+1355,The Advocate,Real
+1356,The Advocate,Real
+1357,The Advocate,Real
+1358,The American Conservative,Acceptable
+1359,The American Conservative,Acceptable
+1360,The American Conservative,Acceptable
+1361,The American Conservative,Real
+1362,The American Conservative,Real
+1363,The American Conservative,Fake
+1364,The American Conservative,Acceptable
+1365,The American Conservative,Real
+1366,The American Conservative,Acceptable
+1367,The American Conservative,Real
+1368,The American Conservative,Acceptable
+1369,The American Conservative,Acceptable
+1370,The American Conservative,Real
+1371,The American Conservative,Acceptable
+1372,The Atlantic,Acceptable
+1373,The Atlantic,Real
+1374,The Atlantic,Acceptable
+1375,The Atlantic,Real
+1376,The Atlantic,Acceptable
+1377,The Atlantic,Real
+1378,The Atlantic,Real
+1379,The Atlantic,Real
+1380,The Atlantic,Real
+1381,The Atlantic,Real
+1382,The Atlantic,Real
+1383,The Atlantic,Real
+1384,The Atlantic,Real
+1385,The Atlantic,Real
+1386,The Blaze,Real
+1387,The Blaze,Acceptable
+1388,The Blaze,Real
+1389,The Blaze,Real
+1390,The Blaze,Fake
+1391,The Blaze,Acceptable
+1392,The Blaze,Real
+1393,The Blaze,Real
+1394,The Blaze,Real
+1395,The Blaze,Fake
+1396,The Blaze,Real
+1397,The Blaze,Real
+1398,The Blaze,Fake
+1399,The Blaze,Fake
+1400,The Blaze,Real
+1401,The Economist,Acceptable
+1402,The Economist,Real
+1403,The Economist,Real
+1404,The Economist,Real
+1405,The Economist,Real
+1406,The Economist,Real
+1407,The Economist,Real
+1408,The Economist,Acceptable
+1409,The Economist,Real
+1410,The Economist,Real
+1411,The Economist,Real
+1412,The Economist,Real
+1413,The Economist,Real
+1414,The Economist,Real
+1415,The Federalist,Fake
+1416,The Federalist,Acceptable
+1417,The Federalist,Fake
+1418,The Federalist,Acceptable
+1419,The Federalist,Fake
+1420,The Federalist,Acceptable
+1421,The Federalist,Acceptable
+1422,The Federalist,Fake
+1423,The Federalist,Fake
+1424,The Federalist,Real
+1425,The Federalist,Real
+1426,The Federalist,Acceptable
+1427,The Federalist,Acceptable
+1428,The Federalist,Real
+1429,The Gateway Pundit,Fake
+1430,The Gateway Pundit,Acceptable
+1431,The Gateway Pundit,Acceptable
+1432,The Gateway Pundit,Fake
+1433,The Gateway Pundit,Acceptable
+1434,The Gateway Pundit,Fake
+1435,The Gateway Pundit,Fake
+1436,The Gateway Pundit,Fake
+1437,The Gateway Pundit,Fake
+1438,The Gateway Pundit,Fake
+1439,The Gateway Pundit,Acceptable
+1440,The Gateway Pundit,Fake
+1441,The Gateway Pundit,Fake
+1442,The Gateway Pundit,Fake
+1443,The Gateway Pundit,Real
+1444,The Gateway Pundit,Fake
+1445,The Guardian,Real
+1446,The Guardian,Real
+1447,The Guardian,Real
+1448,The Guardian,Real
+1449,The Guardian,Real
+1450,The Guardian,Real
+1451,The Guardian,Real
+1452,The Guardian,Real
+1453,The Guardian,Real
+1454,The Guardian,Real
+1455,The Guardian,Real
+1456,The Guardian,Real
+1457,The Guardian,Real
+1458,The Guardian,Real
+1459,The Guardian,Real
+1460,The Hill,Real
+1461,The Hill,Real
+1462,The Hill,Real
+1463,The Hill,Real
+1464,The Hill,Real
+1465,The Hill,Real
+1466,The Hill,Real
+1467,The Hill,Real
+1468,The Hill,Real
+1469,The Hill,Real
+1470,The Hill,Real
+1471,The Hill,Real
+1472,The Hill,Real
+1473,The Hill,Real
+1474,The Hill,Real
+1475,The Nation,Real
+1476,The Nation,Acceptable
+1477,The Nation,Real
+1478,The Nation,Real
+1479,The Nation,Acceptable
+1480,The Nation,Acceptable
+1481,The Nation,Real
+1482,The Nation,Acceptable
+1483,The Nation,Acceptable
+1484,The Nation,Real
+1485,The Nation,Real
+1486,The Nation,Real
+1487,The Nation,Real
+1488,The New Yorker,Real
+1489,The New Yorker,Real
+1490,The New Yorker,Real
+1491,The New Yorker,Fake
+1492,The New Yorker,Real
+1493,The New Yorker,Real
+1494,The New Yorker,Real
+1495,The New Yorker,Real
+1496,The New Yorker,Real
+1497,The New Yorker,Real
+1498,The New Yorker,Real
+1499,The New Yorker,Real
+1500,The New Yorker,Real
+1501,The New Yorker,Real
+1502,The New Yorker,Real
+1503,The Skimm,Real
+1504,The Skimm,Real
+1505,The Skimm,Real
+1506,The Skimm,Real
+1507,The Skimm,Real
+1508,The Skimm,Real
+1509,The Skimm,Real
+1510,The Skimm,Real
+1511,The Skimm,Real
+1512,The Skimm,Real
+1513,The Skimm,Real
+1514,The Skimm,Real
+1515,The Skimm,Real
+1516,The Skimm,Real
+1517,The Week,Real
+1518,The Week,Real
+1519,The Week,Real
+1520,The Week,Acceptable
+1521,The Week,Acceptable
+1522,The Week,Real
+1523,The Week,Real
+1524,The Week,Real
+1525,The Week,Acceptable
+1526,The Week,Acceptable
+1527,The Week,Fake
+1528,The Week,Acceptable
+1529,The Week,Real
+1530,The Week,Acceptable
+1531,The Week,Fake
+1532,The Week,Acceptable
+1533,The Week,Real
+1534,The Week,Real
+1535,The Week,Acceptable
+1536,The Week,Acceptable
+1537,Think Progress,Acceptable
+1538,Think Progress,Acceptable
+1539,Think Progress,Real
+1540,Think Progress,Real
+1541,Think Progress,Real
+1542,Think Progress,Acceptable
+1543,Think Progress,Real
+1544,Think Progress,Real
+1545,Think Progress,Real
+1546,Think Progress,Real
+1547,Think Progress,Real
+1548,Think Progress,Real
+1549,Think Progress,Real
+1550,Think Progress,Acceptable
+1551,Think Progress,Real
+1552,Time,Real
+1553,Time,Real
+1554,Time,Real
+1555,Time,Real
+1556,Time,Real
+1557,Time,Real
+1558,Time,Real
+1559,Time,Real
+1560,Time,Real
+1561,Time,Real
+1562,Time,Real
+1563,Time,Acceptable
+1564,Time,Real
+1565,Time,Real
+1566,Time,Real
+1567,Truthout,Fake
+1568,Truthout,Fake
+1569,Truthout,Acceptable
+1570,Truthout,Acceptable
+1571,Truthout,Real
+1572,Truthout,Acceptable
+1573,Truthout,Real
+1574,Truthout,Real
+1575,Truthout,Fake
+1576,Truthout,Real
+1577,Truthout,Fake
+1578,Truthout,Real
+1579,Truthout,Fake
+1580,Truthout,Real
+1581,Twitchy,Fake
+1582,Twitchy,Fake
+1583,Twitchy,Acceptable
+1584,Twitchy,Fake
+1585,Twitchy,Fake
+1586,Twitchy,Fake
+1587,Twitchy,Fake
+1588,Twitchy,Acceptable
+1589,Twitchy,Acceptable
+1590,Twitchy,Fake
+1591,Twitchy,Fake
+1592,Twitchy,Fake
+1593,Twitchy,Fake
+1594,Twitchy,Acceptable
+1595,Twitchy,Fake
+1596,Twitchy,Fake
+1597,UrNews24,Fake
+1598,UrNews24,Acceptable
+1599,UrNews24,Real
+1600,UrNews24,Fake
+1601,UrNews24,Real
+1602,USA Today,Real
+1603,USA Today,Real
+1604,USA Today,Real
+1605,USA Today,Real
+1606,USA Today,Real
+1607,USA Today,Real
+1608,USA Today,Real
+1609,USA Today,Real
+1610,USA Today,Real
+1611,USA Today,Real
+1612,USA Today,Real
+1613,USA Today,Real
+1614,USA Today,Real
+1615,USA Today,Real
+1616,USA Today,Real
+1617,USA Today,Acceptable
+1618,USA Today,Real
+1619,USA Today,Real
+1620,USA Today,Real
+1621,USA Today,Real
+1622,USA Today,Real
+1623,USA Today,Real
+1624,USA Today,Real
+1625,USA Today,Real
+1626,USA Today,Real
+1627,USA Today,Real
+1628,USA Today,Real
+1629,USA Today,Real
+1630,USA Today,Real
+1631,USA Today,Real
+1632,Vanity Fair,Acceptable
+1633,Vanity Fair,Real
+1634,Vanity Fair,Real
+1635,Vanity Fair,Acceptable
+1636,Vanity Fair,Real
+1637,Vanity Fair,Acceptable
+1638,Vanity Fair,Acceptable
+1639,Vanity Fair,Acceptable
+1640,Vanity Fair,Real
+1641,Vanity Fair,Acceptable
+1642,Vanity Fair,Real
+1643,Vanity Fair,Real
+1644,Vanity Fair,Real
+1645,Vice,Fake
+1646,Vice,Real
+1647,Vice,Real
+1648,Vice,Fake
+1649,Vice,Real
+1650,Vice,Real
+1651,Vice,Real
+1652,Vice,Real
+1653,Vice,Real
+1654,Vice,Real
+1655,Vice,Real
+1656,Vice,Real
+1657,Vice,Real
+1658,Vice,Real
+1659,Vice,Real
+1660,Vox,Real
+1661,Vox,Real
+1662,Vox,Real
+1663,Vox,Acceptable
+1664,Vox,Real
+1665,Vox,Real
+1666,Vox,Real
+1667,Vox,Real
+1668,Vox,Real
+1669,Vox,Real
+1670,Vox,Real
+1671,Vox,Real
+1672,Vox,Real
+1673,Vox,Real
+1674,Wall Street Journal,Real
+1675,Wall Street Journal,Real
+1676,Wall Street Journal,Acceptable
+1677,Wall Street Journal,Real
+1678,Wall Street Journal,Real
+1679,Wall Street Journal,Real
+1680,Wall Street Journal,Real
+1681,Wall Street Journal,Real
+1682,Wall Street Journal,Real
+1683,Wall Street Journal,Real
+1684,Wall Street Journal,Real
+1685,Wall Street Journal,Real
+1686,Wall Street Journal,Real
+1687,Wall Street Journal,Real
+1688,Wall Street Journal,Real
+1689,Wall Street Journal,Real
+1690,Wall Street Journal,Real
+1691,Wall Street Journal,Real
+1692,Wall Street Journal,Real
+1693,Wall Street Journal,Real
+1694,Wall Street Journal,Real
+1695,Wall Street Journal,Real
+1696,Wall Street Journal,Real
+1697,Wall Street Journal,Real
+1698,Wall Street Journal,Real
+1699,Wall Street Journal,Real
+1700,Wall Street Journal,Real
+1701,Wall Street Journal,Real
+1702,Wall Street Journal,Real
+1703,Wall Street Journal,Acceptable
+1704,Wall Street Journal,Real
+1705,Wall Street Journal,Real
+1706,Wall Street Journal,Real
+1707,Wall Street Journal,Real
+1708,Wall Street Journal,Real
+1709,Wall Street Journal,Real
+1710,Wall Street Journal,Real
+1711,Wall Street Journal,Real
+1712,Wall Street Journal,Real
+1713,Wall Street Journal,Real
+1714,Wall Street Journal,Real
+1715,Wall Street Journal,Real
+1716,Wall Street Journal,Real
+1717,Wall Street Journal,Real
+1718,Wall Street Journal,Real
+1719,Washington Examiner,Fake
+1720,Washington Examiner,Real
+1721,Washington Examiner,Real
+1722,Washington Examiner,Acceptable
+1723,Washington Examiner,Real
+1724,Washington Examiner,Real
+1725,Washington Examiner,Fake
+1726,Washington Examiner,Acceptable
+1727,Washington Examiner,Acceptable
+1728,Washington Examiner,Real
+1729,Washington Examiner,Acceptable
+1730,Washington Examiner,Real
+1731,Washington Examiner,Real
+1732,Washington Examiner,Real
+1733,Washington Examiner,Real
+1734,Washington Examiner,Real
+1735,Washington Free Beacon,Acceptable
+1736,Washington Free Beacon,Acceptable
+1737,Washington Free Beacon,Real
+1738,Washington Free Beacon,Real
+1739,Washington Free Beacon,Real
+1740,Washington Free Beacon,Acceptable
+1741,Washington Free Beacon,Acceptable
+1742,Washington Free Beacon,Real
+1743,Washington Free Beacon,Real
+1744,Washington Free Beacon,Real
+1745,Washington Free Beacon,Real
+1746,Washington Free Beacon,Acceptable
+1747,Washington Free Beacon,Acceptable
+1748,Washington Free Beacon,Acceptable
+1749,Washington Free Beacon,Real
+1750,Washington Free Beacon,Real
+1751,Washington Monthly,Real
+1752,Washington Monthly,Fake
+1753,Washington Monthly,Acceptable
+1754,Washington Monthly,Fake
+1755,Washington Monthly,Fake
+1756,Washington Monthly,Acceptable
+1757,Washington Monthly,Acceptable
+1758,Washington Monthly,Real
+1759,Washington Monthly,Acceptable
+1760,Washington Monthly,Acceptable
+1761,Washington Monthly,Acceptable
+1762,Washington Monthly,Acceptable
+1763,Washington Monthly,Real
+1764,Washington Monthly,Real
+1765,Washington Monthly,Real
+1766,Washington Post,Fake
+1767,Washington Post,Real
+1768,Washington Post,Acceptable
+1769,Washington Post,Real
+1770,Washington Post,Real
+1771,Washington Post,Real
+1772,Washington Post,Real
+1773,Washington Post,Real
+1774,Washington Post,Real
+1775,Washington Post,Real
+1776,Washington Post,Real
+1777,Washington Post,Real
+1778,Washington Post,Real
+1779,Washington Post,Real
+1780,Washington Post,Real
+1781,Washington Post,Real
+1782,Washington Post,Real
+1783,Washington Post,Real
+1784,Washington Post,Real
+1785,Washington Post,Real
+1786,Washington Post,Real
+1787,Washington Post,Real
+1788,Washington Post,Real
+1789,Washington Post,Real
+1790,Washington Post,Acceptable
+1791,Washington Post,Real
+1792,Washington Post,Acceptable
+1793,Washington Post,Real
+1794,Washington Post,Real
+1795,Washington Post,Real
+1796,Washington Post,Real
+1797,Washington Post,Real
+1798,Washington Post,Real
+1799,Washington Post,Real
+1800,Washington Post,Real
+1801,Washington Post,Real
+1802,Washington Post,Real
+1803,Washington Post,Real
+1804,Washington Post,Real
+1805,Washington Post,Acceptable
+1806,Washington Post,Real
+1807,Washington Post,Real
+1808,Washington Post,Real
+1809,Washington Post,Real
+1810,Washington Post,Real
+1811,Washington Post,Real
+1812,Washington Post,Real
+1813,Washington Post,Real
+1814,Washington Post,Real
+1815,Washington Post,Real
+1816,Washington Post,Real
+1817,Washington Post,Real
+1818,Washington Post,Real
+1819,Washington Post,Real
+1820,Washington Post,Real
+1821,Washington Post,Real
+1822,Washington Post,Real
+1823,Washington Post,Real
+1824,Washington Post,Real
+1825,Washington Post,Real
+1826,Washington Post,Real
+1827,Washington Post,Real
+1828,Washington Post,Real
+1829,Washington Post,Real
+1830,Washington Post,Real
+1831,Washington Post,Real
+1832,Washington Post,Real
+1833,Washington Post,Real
+1834,Washington Post,Real
+1835,Washington Post,Real
+1836,Washington Post,Real
+1837,Washington Post,Acceptable
+1838,Washington Post,Real
+1839,Washington Post,Real
+1840,Washington Post,Real
+1841,Washington Post,Real
+1842,Washington Post,Real
+1843,Washington Post,Real
+1844,Washington Post,Real
+1845,Washington Post,Real
+1846,Washington Post,Real
+1847,Washington Post,Real
+1848,Washington Post,Real
+1849,Washington Post,Real
+1850,Washington Post,Real
+1851,Washington Post,Real
+1852,Washington Post,Real
+1853,Washington Post,Acceptable
+1854,Washington Post,Acceptable
+1855,Washington Times,Fake
+1856,Washington Times,Real
+1857,Washington Times,Real
+1858,Washington Times,Real
+1859,Washington Times,Real
+1860,Washington Times,Real
+1861,Washington Times,Fake
+1862,Washington Times,Real
+1863,Washington Times,Real
+1864,Washington Times,Real
+1865,Washington Times,Acceptable
+1866,Washington Times,Real
+1867,Washington Times,Real
+1868,Washington Times,Real
+1869,Washington Times,Real
+1870,Weather.com,Real
+1871,Weather.com,Real
+1872,Weather.com,Real
+1873,Weather.com,Real
+1874,Weather.com,Real
+1875,Wonkette,Fake
+1876,Wonkette,Fake
+1877,Wonkette,Fake
+1878,Wonkette,Fake
+1879,Wonkette,Fake
+1880,Wonkette,Fake
+1881,Wonkette,Fake
+1882,Wonkette,Fake
+1883,Wonkette,Fake
+1884,Wonkette,Fake
+1885,Wonkette,Fake
+1886,Wonkette,Fake
+1887,Wonkette,Fake
+1888,World Truth TV,Fake
+1889,World Truth TV,Fake
+1890,World Truth TV,Fake
+1891,World Truth TV,Fake
+1892,World Truth TV,Fake
+1893,World Truth TV,Fake
+1894,World Truth TV,Fake
+1895,World Truth TV,Fake
+1896,World Truth TV,Real
+1897,World Truth TV,Acceptable
+1898,World Truth TV,Fake
+1899,World Truth TV,Acceptable
+1900,World Truth TV,Fake
+1901,WorldNetDaily,Fake
+1902,WorldNetDaily,Fake
+1903,WorldNetDaily,Acceptable
+1904,WorldNetDaily,Acceptable
+1905,WorldNetDaily,Fake
+1906,WorldNetDaily,Fake
+1907,WorldNetDaily,Real
+1908,WorldNetDaily,Real
+1909,WorldNetDaily,Real
+1910,WorldNetDaily,Acceptable
+1911,WorldNetDaily,Fake
+1912,WorldNetDaily,Fake
+1913,WorldNetDaily,Fake
+1914,WorldNetDaily,Fake
+1915,WorldNetDaily,Acceptable
