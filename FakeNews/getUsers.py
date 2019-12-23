@@ -10,26 +10,32 @@ consumer_secret = 'kQoQpgLNsgGJ5VBPEqs3II92BvjeriXOdLWAVoeoY84t30TNgE'
 access_token = '1633497956-vgq9BrDZmihmPPHexldU9oObEchUbhbChonPwYu'
 access_token_secret = 'mFA16Mz93Iz4WTcoADchemO8lzPC4SB1fgaamWejkohVA'
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
+#auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+#auth.set_access_token(access_token, access_token_secret)
+auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 
-api = tweepy.API(auth)
+api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 def main():
+    if get_screen_name_from_tweet('937349434668498944') == "SuspendedAccount":
+        exit()
 
+    list_noticias = [1,5,10,20,50,100,366,367,368]
     start_time = time.time()
     noticias = get_tweets(num_noticias=int(sys.argv[1]))
     name_dict = {}
+
     for i,v in enumerate(noticias[1]):
-        if (1 % 10 == 0):
-            print(i)
+        if i in list_noticias:
+            save_to_csv(i, name_dict)
+            print(i,"--- %s seconds ---" % (time.time() - start_time))
         for j, t in enumerate(v):
-            name = get_screen_name_from_tweet(v[j])
-            if name != 'SuspendedAccount':
-                if name in name_dict:
-                    name_dict[name] = name_dict[name] + 1
-                else:
-                    name_dict[name] = 1
+            name = get_screen_name_from_tweet(str(t))
+            if name in name_dict:
+                name_dict[name] += 1
+            else:
+                name_dict[name] = 1
+        
 
     df = pd.DataFrame(list(name_dict.items()), columns=['name', 'weight'])
     df.rename(columns={0:"id"}) #Adding an index column
@@ -39,6 +45,12 @@ def main():
 
 
 ####    FUNCTIONS    ####
+def save_to_csv(index, name_dict):
+    df = pd.DataFrame(list(name_dict.items()), columns=['name', 'weight'])
+    df.rename(columns={0:"id"}) #Adding an index column
+    df.index.name = "id"
+    df.to_csv('./gen/nodos_{}noticias.csv'.format(index))
+
 def get_tweet_status(tweet_id):
     '''
     Devuelve un objeto status con todos los datos de un tweet
