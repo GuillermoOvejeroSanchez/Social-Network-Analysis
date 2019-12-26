@@ -21,11 +21,12 @@ def main():
     df = pd.read_csv('./gen/nodos_1noticias.csv')
     df = df[df.name != 'SuspendedAccount']
     edgesDict = {}
-
+    total = len(df['name'])
     for i, screen_name in enumerate(df['name']):
         followers = [1,2,3]
         followers = get_followers_limited(screen_name,100)
         edgesDict[screen_name] = followers
+        print("Restantes: {}\Tiempo Transcurrido: ".format(total-i, (time.time() - start_time)))
         
     edges = pd.DataFrame.from_dict(edgesDict,orient='index')
     edges.head()
