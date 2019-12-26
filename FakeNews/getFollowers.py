@@ -26,7 +26,7 @@ def main():
         followers = [1,2,3]
         followers = get_followers_limited(screen_name,100)
         edgesDict[screen_name] = followers
-        print("Restantes: {}\Tiempo Transcurrido: ".format(total-i, (time.time() - start_time)))
+        print("Restantes: {}\Tiempo Transcurrido: ".format(total-i, time.time() - start_time))
         
     edges = pd.DataFrame.from_dict(edgesDict,orient='index')
     edges.head()
@@ -72,7 +72,7 @@ def get_followers_page(screen_name):
     ej @NelsonMandela -> NelsonMandela
     '''
     ids = []
-    for page in tweepy.Cursor(api.followers_ids, screen_name="OfeliasHeaven").pages():
+    for page in tweepy.Cursor(api.followers_ids, screen_name=screen_name).pages():
         ids.extend(page)
         #time.sleep(60)
     return ids
@@ -84,8 +84,9 @@ def get_followers_limited(screen_name, total):
     Obtiene solo un numero de ids de usuarios indicado en el parametro total
     '''
     ids = []
-    for page in tweepy.Cursor(api.followers_ids, screen_name="OfeliasHeaven").items(total):
+    for page in tweepy.Cursor(api.followers_ids, screen_name=screen_name).items(total):
         ids.append(page)
+        time.sleep(1)
     return ids
 
 def get_followers_from_tweet_id(tweet_id, total = 0):
