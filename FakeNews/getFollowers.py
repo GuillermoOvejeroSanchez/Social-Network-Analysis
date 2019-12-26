@@ -10,34 +10,51 @@ consumer_secret = 'kQoQpgLNsgGJ5VBPEqs3II92BvjeriXOdLWAVoeoY84t30TNgE'
 access_token = '1633497956-vgq9BrDZmihmPPHexldU9oObEchUbhbChonPwYu'
 access_token_secret = 'mFA16Mz93Iz4WTcoADchemO8lzPC4SB1fgaamWejkohVA'
 
-#auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-#auth.set_access_token(access_token, access_token_secret)
-auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+#auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 def main():
     start_time = time.time()
-    df = pd.read_csv('./gen/nodos_1noticias.csv')
+    if len(sys.argv) > 1:
+        num = sys.argv[1]
+    else:
+        num = 10
+    df = pd.read_csv('./gen/nodos_{}noticias.csv'.format(num))
     df = df[df.name != 'SuspendedAccount']
     edgesDict = {}
     total = len(df['name'])
     for i, screen_name in enumerate(df['name']):
-        followers = [1,2,3]
-        followers = get_followers_limited(screen_name,100)
-        edgesDict[screen_name] = followers
-        print("Restantes: {}\Tiempo Transcurrido: ".format(total-i, time.time() - start_time))
-        
-    edges = pd.DataFrame.from_dict(edgesDict,orient='index')
-    edges.head()
-    edges.to_csv('edges.csv')
+        followers = get_followers_limited(screen_name,1000)
+        edgesDict[screen_name] = str(followers)
+        print("{}:\tRestantes: {}\tTiempo Transcurrido: {}".format(i, total-i, time.time() - start_time))
+        edges = pd.DataFrame.from_dict(edgesDict,orient='index')
+        csv_file = './gen/edges/intermediates/edges_{}users.csv'.format(i+1)
+        edges.to_csv(csv_file)
+        follower_csv(csv_file)
 
-    edgesTest = pd.read_csv('edges.csv')
-    edgesTest.head()
+    
+    edges = pd.DataFrame.from_dict(edgesDict,orient='index')
+    edges.to_csv('./gen/edges/edges_1.csv')
+    follower_csv('./gen/edges/edges_1_final.csv')
     print("--- %s seconds ---" % (time.time() - start_time))
 
 
 ####    FUNCTIONS    ####
+
+def follower_csv(path):
+    df = pd.read_csv(path)
+    df = df.rename(columns={"Unnamed: 0": "screen_name", "0": "followers_ids"})
+    ids = df['followers_ids'][0]
+    ids = ids.split(',')
+    for i,v in enumerate(ids):
+        ids[i] = v.strip()
+    ids[0] = ids[0].replace("[", "")
+    ids[-1] = ids[-1].replace("]", "")
+    df.to_csv(path)
+
 def save_to_csv(index, name_dict):
     df = pd.DataFrame(list(name_dict.items()), columns=['name', 'weight'])
     df.rename(columns={0:"id"}) #Adding an index column
@@ -55,6 +72,14 @@ def get_user_by_id(id):
     Devuelve un objeto user a traves del id del user
     '''
     return api.get_user(id)
+
+def get_screen_name(id):
+    try:
+        user = get_user_by_id(id)
+        screen_name = user.screen_name
+        return screen_name
+    except tweepy.TweepError as e:
+        return ('SuspendedAccount')    
     
     
 def get_screen_name_from_tweet(tweet_id):
@@ -86,7 +111,6 @@ def get_followers_limited(screen_name, total):
     ids = []
     for page in tweepy.Cursor(api.followers_ids, screen_name=screen_name).items(total):
         ids.append(page)
-        time.sleep(1)
     return ids
 
 def get_followers_from_tweet_id(tweet_id, total = 0):
