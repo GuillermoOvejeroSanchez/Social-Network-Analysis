@@ -10,11 +10,11 @@ consumer_secret = 'kQoQpgLNsgGJ5VBPEqs3II92BvjeriXOdLWAVoeoY84t30TNgE'
 access_token = '1633497956-vgq9BrDZmihmPPHexldU9oObEchUbhbChonPwYu'
 access_token_secret = 'mFA16Mz93Iz4WTcoADchemO8lzPC4SB1fgaamWejkohVA'
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
-#auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
+#auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+#auth.set_access_token(access_token, access_token_secret)
+auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 
-api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+api = tweepy.API(auth, retry_count=3, retry_delay=5, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 def main():
     start_time = time.time()
@@ -27,7 +27,7 @@ def main():
     edgesDict = {}
     total = len(df['name'])
     for i, screen_name in enumerate(df['name']):
-        followers = get_followers_limited(screen_name,1000)
+        followers = get_followers_page(screen_name)
         edgesDict[screen_name] = str(followers)
         print("{}:\tRestantes: {}\tTiempo Transcurrido: {}".format(i, total-i, time.time() - start_time))
         edges = pd.DataFrame.from_dict(edgesDict,orient='index')
@@ -99,7 +99,7 @@ def get_followers_page(screen_name):
     ids = []
     for page in tweepy.Cursor(api.followers_ids, screen_name=screen_name).pages():
         ids.extend(page)
-        #time.sleep(60)
+        time.sleep(30)
     return ids
 
 def get_followers_limited(screen_name, total):
