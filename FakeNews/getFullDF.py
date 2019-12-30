@@ -20,7 +20,7 @@ def get_tweet_status(tweet_id):
         return api.get_status(tweet_id)
     except tweepy.TweepError as e:
         f = open("./output/fulldf_log.txt", "a")
-        f.write(e)
+        f.write(str(e))
         f.write('\n')
         f.close()
         return 'SuspendedAccount'
@@ -29,7 +29,7 @@ df_out = pd.DataFrame(columns=['tweet_ids','created_at','favorite_count','retwee
 df = pd.read_csv('./data/politifact_fake.csv')
 intermediate = [5,10,50,100,200]
 index = 0
-total = len(df['tweets_ids'])
+total = len(df['tweet_ids'])
 for i,v in enumerate(df['tweet_ids']):
     if not isinstance(v, float): #Comprueba que tenga mas de 1 elemento, si solo tiene un elemento python lo considera un float
         news = v.split('\t')
@@ -38,10 +38,10 @@ for i,v in enumerate(df['tweet_ids']):
         if len(news) > 1 and status != 'SuspendedAccount': #Si hay mas de un tweet y el tweet no es de una cuenta suspendida lo añadimos al df
             df_out.loc[index] = [str(news[j]), status.created_at.strftime('%Y%m%d%H%M%S'),str(status.favorite_count),str(status.retweet_count),str(df['id'][i]),str(i), str(status.user.screen_name), status.user.created_at.strftime('%Y%m%d%H%M%S'),str(status.user.followers_count), str(status.user.friends_count),str(status.user.verified)]
             index += 1
-    print("---- noticias añadidas {}/{} ----".format(i+1, total))
+    print("---- added news {}/{} ----".format(i+1, total))
     if i in intermediate:
         print("--- intermediate step {} ----".format(i))
         df_out.to_csv('./gen/edges/intermediates/full_pf_fake_{}.csv'.format(i))
 
 df_out.to_csv('./gen/full_pf_fake.csv')
-print("Todas las noticias añadidas, csv generado...")
+print("All news added, csv generated...")
