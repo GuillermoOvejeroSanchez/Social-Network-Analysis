@@ -19,14 +19,14 @@ def get_tweet_status(tweet_id):
     try:
         return api.get_status(tweet_id)
     except tweepy.TweepError as e:
-        f = open("./output/fulldf_log.txt", "a")
+        f = open("../output/fulldf_log.txt", "a")
         f.write(str(e))
         f.write('\n')
         f.close()
         return 'SuspendedAccount'
 
 df_out = pd.DataFrame(columns=['tweet_ids','created_at','favorite_count','retweet_count', 'id_noticia', 'index', 'screen_name','user_created_at','followers', 'friends','verified' ])
-df = pd.read_csv('./data/politifact_fake.csv')
+df = pd.read_csv('../data/politifact_fake.csv')
 intermediate = [5,10,50,100,200]
 index = 0
 total = len(df['tweet_ids'])
@@ -41,7 +41,7 @@ for i,v in enumerate(df['tweet_ids']):
     print("---- added news {}/{} ----".format(i+1, total))
     if i in intermediate:
         print("--- intermediate step {} ----".format(i))
-        df_out.to_csv('./gen/edges/intermediates/full_pf_fake_{}.csv'.format(i))
+        df_out.to_csv('../gen/edges/intermediates/full_pf_fake_{}.csv'.format(i))
 
-df_out.to_csv('./gen/full_pf_fake.csv')
+df_out.to_csv('../gen/full_pf_fake.csv')
 print("All news added, csv generated...")

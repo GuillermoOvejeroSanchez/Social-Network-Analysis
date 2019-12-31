@@ -22,7 +22,7 @@ def main():
         num = sys.argv[1]
     else:
         num = 10
-    df = pd.read_csv('./gen/nodos_{}noticias.csv'.format(num))
+    df = pd.read_csv('../gen/nodos_{}noticias.csv'.format(num))
     df = df[df.name != 'SuspendedAccount']
     edgesDict = {}
     total = len(df['name'])
@@ -31,14 +31,14 @@ def main():
         edgesDict[screen_name] = str(followers)
         print("{}:\tRestantes: {}\tTiempo Transcurrido: {}".format(i, total-i, time.time() - start_time))
         edges = pd.DataFrame.from_dict(edgesDict,orient='index')
-        csv_file = './gen/edges/intermediates/edges_{}users.csv'.format(i+1)
+        csv_file = '../gen/edges/intermediates/edges_{}users.csv'.format(i+1)
         edges.to_csv(csv_file)
         follower_csv(csv_file)
 
     
     edges = pd.DataFrame.from_dict(edgesDict,orient='index')
-    edges.to_csv('./gen/edges/edges_1.csv')
-    follower_csv('./gen/edges/edges_1_final.csv')
+    edges.to_csv('../gen/edges/edges_1.csv')
+    follower_csv('../gen/edges/edges_1_final.csv')
     print("--- %s seconds ---" % (time.time() - start_time))
 
 
@@ -59,7 +59,7 @@ def save_to_csv(index, name_dict):
     df = pd.DataFrame(list(name_dict.items()), columns=['name', 'weight'])
     df.rename(columns={0:"id"}) #Adding an index column
     df.index.name = "id"
-    df.to_csv('./gen/nodos_{}noticias.csv'.format(index))
+    df.to_csv('../gen/nodos_{}noticias.csv'.format(index))
 
 def get_tweet_status(tweet_id):
     '''
@@ -134,8 +134,8 @@ def get_tweets(num_noticias):
     Con el DataFrame de Pandas separamos los tweets de una misma noticia
     Devuelve un array de [titulos, array(tweets_ids)]
     '''
-    df = pd.read_csv('./data/politifact_fake.csv') 
-    #Esto se puede cambiar por otro dataset (ej: ./data/politifact_real.csv), pero de momento trabajamos con este
+    df = pd.read_csv('../data/politifact_fake.csv') 
+    #Esto se puede cambiar por otro dataset (ej: ../data/politifact_real.csv), pero de momento trabajamos con este
     df['tweet_ids'][0].split('\t')
     
     titulo = []
