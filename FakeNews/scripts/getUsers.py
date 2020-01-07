@@ -17,9 +17,6 @@ auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 def main():
-    if get_screen_name_from_tweet('937349434668498944') == "SuspendedAccount":
-        exit()
-
     list_noticias = [1,5,10,20,50,100,366,367,368]
     start_time = time.time()
     noticias = get_tweets(num_noticias=int(sys.argv[1]))
