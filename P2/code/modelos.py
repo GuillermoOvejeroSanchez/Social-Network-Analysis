@@ -20,7 +20,6 @@ def barabasi_albert(nodos, m):
     m0 = m + 1
     t = nodos - m0
     G = nx.complete_graph(m0) #Creamos el grafo con una distribucion inicial de m0 nodos con al menos un enlace cada nodo
-
  
     '''
     --------------------------------------------------------------------------------------------------------------------------------------------------
@@ -107,9 +106,10 @@ def barabasi_albert(nodos, m):
                 nodosAdded.append(idDestino) # lo metemos en la lista de nodos selecionados 
                 G.add_edge(i,idDestino) #añadimos la conexional grafo 
                 conexiones += 1
-            
-            print(conexiones)   
+              
             if conexiones < 501 and conexiones % 25 == 0 or (conexiones < 20 and conexiones % 5 == 0):
-                nx.write_edgelist(G, '../graphs/barabasi-albert/steps/ba_steps_{:03d}.csv'.format(source), delimiter=",", data=True)
+                click.echo(conexiones)
+                nx.write_edgelist(G, '../graphs/barabasi-albert/steps/ba_steps_{:03d}.csv'.format(conexiones), delimiter=",", data=True)
+                
     
     return G
