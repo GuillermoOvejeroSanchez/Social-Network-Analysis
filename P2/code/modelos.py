@@ -108,8 +108,7 @@ def barabasi_albert(nodos, m):
                 conexiones += 1
               
             if conexiones < 501 and conexiones % 25 == 0 or (conexiones < 20 and conexiones % 5 == 0):
-                click.echo(conexiones)
-                nx.write_edgelist(G, '../graphs/barabasi-albert/steps/ba_steps_{:03d}.csv'.format(conexiones), delimiter=",", data=True)
+                nx.write_multiline_adjlist(G, '../graphs/barabasi-albert/steps/ba_steps_{:03d}.csv'.format(conexiones), delimiter=",")
                 
     
     return G
