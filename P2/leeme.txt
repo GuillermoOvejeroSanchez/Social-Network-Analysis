@@ -1,0 +1,13 @@
+Grupo 5 - Practica 2
+
+Guillermo Ovejero
+Rebeca Herranz
+Carlos Sanchez
+Marlon Campoverde
+
+-------------------
+
+El codigo generado esta dentro de la carpeta "code", y necesita de la carpeta "graphs" con ambas supcarpetas que tiene para funcionar
+El CLI tiene un manual en pdf indicando su funcionamiento
+Se ha cambiado la forma de guardar los grafos a un "adjlist", porque el "edgelist" daba problemas al no tener todos los nodos
+El notebook "p2.ipynb" ha sido modificado para calcular las metricas de los grafos generados por el CLI y generar las imagenes usadas en la memoria
